@@ -1,0 +1,44 @@
+19:50:43 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/ArrayEmployees.o ../src/ArrayEmployees.c 
+../src/ArrayEmployees.c:14:32: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int inicializarEmpleado(struct empleado* list, int tam)
+                               ^
+../src/ArrayEmployees.c:17:7: error: subscript of pointer to incomplete type 'struct empleado'
+                list[i].isEmpty=1;
+                ~~~~^
+../src/ArrayEmployees.c:14:32: note: forward declaration of 'struct empleado'
+int inicializarEmpleado(struct empleado* list, int tam)
+                               ^
+../src/ArrayEmployees.c:22:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int agregarEmpleaado(struct empleado* list, int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:26:10: error: subscript of pointer to incomplete type 'struct empleado'
+                if(list[i].isEmpty == 1){
+                   ~~~~^
+../src/ArrayEmployees.c:22:29: note: forward declaration of 'struct empleado'
+int agregarEmpleaado(struct empleado* list, int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:27:8: error: subscript of pointer to incomplete type 'struct empleado'
+                        list[i].nombre=GetString("Introduzca nombre del empleado: ","",51);
+                        ~~~~^
+../src/ArrayEmployees.c:22:29: note: forward declaration of 'struct empleado'
+int agregarEmpleaado(struct empleado* list, int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:33:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int buscarEmpleadoId(struct empleado* list, int len,int id)
+                            ^
+../src/ArrayEmployees.c:37:27: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int borrarEmpleado(struct empleado* list, int len, int id)
+                          ^
+../src/ArrayEmployees.c:41:28: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int ordenarEmpleado(struct empleado* list, int len, int order)
+                           ^
+../src/ArrayEmployees.c:45:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int imprimirEmpleado(struct empleado* list, int length)
+                            ^
+6 warnings and 3 errors generated.
+
+19:50:43 Build Failed. 3 errors, 6 warnings. (took 485ms)
+

@@ -1,0 +1,28 @@
+/*
+ * ArrayEmployees.h
+ *
+ *  Created on: 14 oct. 2021
+ *      Author: leeon
+ */
+
+#ifndef ARRAYEMPLOYEES_H_
+#define ARRAYEMPLOYEES_H_
+
+struct
+{
+ int id;
+ char nombre[51];
+ char apellido[51];
+ float salario;
+ int sector;
+ int isEmpty;
+}typedef Empleado;
+
+int initEmployees(Empleado* list, int len);
+
+int addEmployee(Empleado* list, int len, int id, char nombre[],char
+apellido[],float salirio,int sector);
+
+
+
+#endif /* ARRAYEMPLOYEES_H_ */

@@ -1,0 +1,51 @@
+/*
+ * ArrayEmployees.c
+ *
+ *  Created on: 14 oct. 2021
+ *      Author: leeon
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "input.h"
+
+
+
+int inicializarEmpleado(struct empleado* , int tam)
+{
+	for(int i = 0; i < tam; i++) {
+		list[i].isEmpty=1;
+	    }
+ return 0;
+}
+
+int agregarEmpleaado(struct empleado* , int tam, int id, char nombre[],char
+apellido[],float salario,int sector)
+{
+	for(int i = 0; i < tam;i++){
+		if(empleado[i].isEmpty == 1){
+			empleado[i].nombre=GetString("Introduzca nombre del empleado: ","",51);
+		}
+	}
+ return 0;
+}
+
+int buscarEmpleadoId(struct empleado* , int len,int id)
+{
+ return 0;
+}
+int borrarEmpleado(struct empleado* , int len, int id)
+{
+ return 0;
+}
+int ordenarEmpleado(struct empleado* , int len, int order)
+{
+ return 0;
+}
+int imprimirEmpleado(struct empleado* , int length)
+{
+ return 0;
+}
+
+
+

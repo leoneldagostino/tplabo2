@@ -1,0 +1,41 @@
+/*
+ * input.c
+ *
+ *  Created on: 17 oct. 2021
+ *      Author: rociofernandez
+ */
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
+#include <string.h>
+#include "Input.h"
+
+int PedirEntero(char mensaje[])
+{
+    int numero;
+
+    printf("%s",mensaje);
+	scanf("%d",&numero );
+
+	return numero;
+}
+
+float PedirFlotante(char mensaje[])
+{
+    float numero;
+
+    printf("%s",mensaje);
+	scanf("%f",&numero );
+
+	return numero;
+}
+void GetString(char mensaje[],char cadena[],int tam)
+{
+    char auxiliar[tam];
+    printf("%s", mensaje);
+    __fpurge(stdin);
+    scanf("%[^\n]", auxiliar);
+    strcpy(cadena, auxiliar);
+}

@@ -1,0 +1,40 @@
+/*
+ * ArrayEmployees.c
+ *
+ *  Created on: 14 oct. 2021
+ *      Author: leeon
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int inicializarEmpleado(empleado* list, int len)
+{
+ return 0;
+}
+
+int agregarEmpleaado(empleado* list, int len, int id, char nombre[],char
+apellido[],float salario,int sector)
+{
+ return 0;
+}
+
+int findEmployeeById(empleado* list, int len,int id)
+{
+ return 0;
+}
+int removeEmployee(empleado* list, int len, int id)
+{
+ return 0;
+}
+int sortEmployees(empleado* list, int len, int order)
+{
+ return 0;
+}
+int printEmployees(empleado* list, int length)
+{
+ return 0;
+}
+
+
+

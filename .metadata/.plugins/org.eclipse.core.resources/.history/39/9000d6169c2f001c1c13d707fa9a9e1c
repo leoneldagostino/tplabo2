@@ -1,0 +1,36 @@
+/*
+ * ArrayEmployees.h
+ *
+ *  Created on: 14 oct. 2021
+ *      Author: leeon
+ */
+
+#ifndef ARRAYEMPLOYEES_H_
+#define ARRAYEMPLOYEES_H_
+
+typedef struct
+{
+ int id;
+ char nombre[51];
+ char apellido[51];
+ float salario;
+ int sector;
+ int isEmpty;
+} empleado;
+
+int inicializarEmpleado(struct empleado* , int len);
+
+int agregarEmpleaado(struct empleado* , int len, int id, char nombre[],char
+apellido[],float salirio,int sector);
+
+int buscarEmpleadoId(struct empleado* , int len,int id);
+
+int borrarEmpleado(struct empleado* , int len, int id);
+
+int ordenarEmpleado(struct empleado* , int len, int order);
+
+int imprimirEmpleado(struct empleado* , int length);
+
+
+
+#endif /* ARRAYEMPLOYEES_H_ */

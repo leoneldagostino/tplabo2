@@ -1,0 +1,741 @@
+19:26:22 **** Rebuild of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/input.o ../src/input.c 
+../src/input.c:13:10: warning: non-portable path to file '"input.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "Input.h"
+         ^~~~~~~~~
+         "input.h"
+1 warning generated.
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/TP_[2].o ../src/TP_[2].c 
+../src/TP_[2].c:15:1: error: unknown type name 'empleado'
+empleado empleado1;
+^
+../src/TP_[2].c:26:4: error: implicit declaration of function 'agregarEmpleaado' is invalid in C99 [-Werror,-Wimplicit-function-declaration]
+                        agregarEmpleaado(empleado1,5,1,"nombre","apellido",12,3);
+                        ^
+2 errors generated.
+19:28:01 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/menu.o ../src/menu.c 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/ArrayEmployees.o ../src/ArrayEmployees.c 
+../src/ArrayEmployees.c:12:25: error: unknown type name 'empleado'
+int inicializarEmpleado(empleado* list, int tam)
+                        ^
+../src/ArrayEmployees.c:20:22: error: unknown type name 'empleado'
+int agregarEmpleaado(empleado* list, int tam, int id, char nombre[],char
+                     ^
+../src/ArrayEmployees.c:31:22: error: unknown type name 'empleado'
+int buscarEmpleadoId(empleado* list, int len,int id)
+                     ^
+../src/ArrayEmployees.c:35:20: error: unknown type name 'empleado'
+int borrarEmpleado(empleado* list, int len, int id)
+                   ^
+../src/ArrayEmployees.c:39:21: error: unknown type name 'empleado'
+int ordenarEmpleado(empleado* list, int len, int order)
+                    ^
+../src/ArrayEmployees.c:43:22: error: unknown type name 'empleado'
+int imprimirEmpleado(empleado* list, int length)
+                     ^
+6 errors generated.
+19:28:47 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/TP_[2].o ../src/TP_[2].c 
+../src/TP_[2].c:15:1: error: unknown type name 'empleado'
+empleado empleUno;
+^
+../src/TP_[2].c:26:4: error: implicit declaration of function 'agregarEmpleaado' is invalid in C99 [-Werror,-Wimplicit-function-declaration]
+                        agregarEmpleaado(empleUno,5,1,"nombre","apellido",12,3);
+                        ^
+2 errors generated.
+19:29:59 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/ArrayEmployees.o ../src/ArrayEmployees.c 
+../src/ArrayEmployees.c:12:25: error: unknown type name 'empleado'
+int inicializarEmpleado(empleado* list, int tam)
+                        ^
+../src/ArrayEmployees.c:20:22: error: unknown type name 'empleado'
+int agregarEmpleaado(empleado* list, int tam, int id, char nombre[],char
+                     ^
+../src/ArrayEmployees.c:31:22: error: unknown type name 'empleado'
+int buscarEmpleadoId(empleado* list, int len,int id)
+                     ^
+../src/ArrayEmployees.c:35:20: error: unknown type name 'empleado'
+int borrarEmpleado(empleado* list, int len, int id)
+                   ^
+../src/ArrayEmployees.c:39:21: error: unknown type name 'empleado'
+int ordenarEmpleado(empleado* list, int len, int order)
+                    ^
+../src/ArrayEmployees.c:43:22: error: unknown type name 'empleado'
+int imprimirEmpleado(empleado* list, int length)
+                     ^
+6 errors generated.
+19:30:05 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/ArrayEmployees.o ../src/ArrayEmployees.c 
+../src/ArrayEmployees.c:12:25: error: unknown type name 'empleado'
+int inicializarEmpleado(empleado* list, int tam)
+                        ^
+../src/ArrayEmployees.c:20:22: error: unknown type name 'empleado'
+int agregarEmpleaado(empleado* list, int tam, int id, char nombre[],char
+                     ^
+../src/ArrayEmployees.c:31:22: error: unknown type name 'empleado'
+int buscarEmpleadoId(empleado* list, int len,int id)
+                     ^
+../src/ArrayEmployees.c:35:20: error: unknown type name 'empleado'
+int borrarEmpleado(empleado* list, int len, int id)
+                   ^
+../src/ArrayEmployees.c:39:21: error: unknown type name 'empleado'
+int ordenarEmpleado(empleado* list, int len, int order)
+                    ^
+../src/ArrayEmployees.c:43:22: error: unknown type name 'empleado'
+int imprimirEmpleado(empleado* list, int length)
+                     ^
+6 errors generated.
+19:31:51 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/TP_[2].o ../src/TP_[2].c 
+../src/TP_[2].c:27:21: error: passing 'empleado' to parameter of incompatible type 'empleado *'; take the address with &
+                        agregarEmpleaado(empleUno,5,1,"nombre","apellido",12,3);
+                                         ^~~~~~~~
+                                         &
+../src/ArrayEmployees.h:23:32: note: passing argument to parameter 'list' here
+int agregarEmpleaado(empleado* list, int len, int id, char nombre[],char
+                               ^
+1 error generated.
+19:33:32 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/TP_[2].o ../src/TP_[2].c 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/ArrayEmployees.o ../src/ArrayEmployees.c 
+../src/ArrayEmployees.c:12:25: error: unknown type name 'empleado'
+int inicializarEmpleado(empleado* list, int tam)
+                        ^
+../src/ArrayEmployees.c:20:22: error: unknown type name 'empleado'
+int agregarEmpleaado(empleado* list, int tam, int id, char nombre[],char
+                     ^
+../src/ArrayEmployees.c:31:22: error: unknown type name 'empleado'
+int buscarEmpleadoId(empleado* list, int len,int id)
+                     ^
+../src/ArrayEmployees.c:35:20: error: unknown type name 'empleado'
+int borrarEmpleado(empleado* list, int len, int id)
+                   ^
+../src/ArrayEmployees.c:39:21: error: unknown type name 'empleado'
+int ordenarEmpleado(empleado* list, int len, int order)
+                    ^
+../src/ArrayEmployees.c:43:22: error: unknown type name 'empleado'
+int imprimirEmpleado(empleado* list, int length)
+                     ^
+6 errors generated.
+19:34:32 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/ArrayEmployees.o ../src/ArrayEmployees.c 
+../src/ArrayEmployees.c:35:18: error: array type 'char [51]' is not assignable
+                        list[i].nombre=GetString("Introduzca nombre del empleado: ","",25);
+                        ~~~~~~~~~~~~~~^
+1 error generated.
+19:34:51 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/TP_[2].o ../src/TP_[2].c 
+In file included from ../src/TP_[2].c:13:
+../src/ArrayEmployees.h:13:25: error: unknown type name 'empleado'
+int inicializarEmpleado(empleado* list, int len);
+                        ^
+../src/ArrayEmployees.h:15:22: error: unknown type name 'empleado'
+int agregarEmpleaado(empleado* list, int len, int id, char nombre[],char
+                     ^
+../src/ArrayEmployees.h:18:22: error: unknown type name 'empleado'
+int buscarEmpleadoId(empleado* list, int len,int id);
+                     ^
+../src/ArrayEmployees.h:20:20: error: unknown type name 'empleado'
+int borrarEmpleado(empleado* list, int len, int id);
+                   ^
+../src/ArrayEmployees.h:22:21: error: unknown type name 'empleado'
+int ordenarEmpleado(empleado* list, int len, int order);
+                    ^
+../src/ArrayEmployees.h:24:22: error: unknown type name 'empleado'
+int imprimirEmpleado(empleado* list, int length);
+                     ^
+../src/TP_[2].c:16:1: error: unknown type name 'empleado'
+empleado empleUno;
+^
+7 errors generated.
+19:35:31 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/TP_[2].o ../src/TP_[2].c 
+In file included from ../src/TP_[2].c:13:
+../src/ArrayEmployees.h:13:25: error: unknown type name 'empleado'
+int inicializarEmpleado(empleado* list, int len);
+                        ^
+../src/ArrayEmployees.h:15:22: error: unknown type name 'empleado'
+int agregarEmpleaado(empleado* list, int len, int id, char nombre[],char
+                     ^
+../src/ArrayEmployees.h:18:22: error: unknown type name 'empleado'
+int buscarEmpleadoId(empleado* list, int len,int id);
+                     ^
+../src/ArrayEmployees.h:20:20: error: unknown type name 'empleado'
+int borrarEmpleado(empleado* list, int len, int id);
+                   ^
+../src/ArrayEmployees.h:22:21: error: unknown type name 'empleado'
+int ordenarEmpleado(empleado* list, int len, int order);
+                    ^
+../src/ArrayEmployees.h:24:22: error: unknown type name 'empleado'
+int imprimirEmpleado(empleado* list, int length);
+                     ^
+6 errors generated.
+19:36:27 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/ArrayEmployees.o ../src/ArrayEmployees.c 
+../src/ArrayEmployees.c:14:25: error: unknown type name 'empleado'
+int inicializarEmpleado(empleado* list, int tam)
+                        ^
+../src/ArrayEmployees.c:22:22: error: unknown type name 'empleado'
+int agregarEmpleaado(empleado* list, int tam, int id, char nombre[],char
+                     ^
+../src/ArrayEmployees.c:33:22: error: unknown type name 'empleado'
+int buscarEmpleadoId(empleado* list, int len,int id)
+                     ^
+../src/ArrayEmployees.c:37:20: error: unknown type name 'empleado'
+int borrarEmpleado(empleado* list, int len, int id)
+                   ^
+../src/ArrayEmployees.c:41:21: error: unknown type name 'empleado'
+int ordenarEmpleado(empleado* list, int len, int order)
+                    ^
+../src/ArrayEmployees.c:45:22: error: unknown type name 'empleado'
+int imprimirEmpleado(empleado* list, int length)
+                     ^
+6 errors generated.
+19:36:49 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/TP_[2].o ../src/TP_[2].c 
+In file included from ../src/TP_[2].c:14:
+../src/ArrayEmployees.h:13:25: error: unknown type name 'empleado'
+int inicializarEmpleado(empleado* list, int len);
+                        ^
+../src/ArrayEmployees.h:15:22: error: unknown type name 'empleado'
+int agregarEmpleaado(empleado* list, int len, int id, char nombre[],char
+                     ^
+../src/ArrayEmployees.h:18:22: error: unknown type name 'empleado'
+int buscarEmpleadoId(empleado* list, int len,int id);
+                     ^
+../src/ArrayEmployees.h:20:20: error: unknown type name 'empleado'
+int borrarEmpleado(empleado* list, int len, int id);
+                   ^
+../src/ArrayEmployees.h:22:21: error: unknown type name 'empleado'
+int ordenarEmpleado(empleado* list, int len, int order);
+                    ^
+../src/ArrayEmployees.h:24:22: error: unknown type name 'empleado'
+int imprimirEmpleado(empleado* list, int length);
+                     ^
+6 errors generated.
+19:37:08 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/ArrayEmployees.o ../src/ArrayEmployees.c 
+../src/ArrayEmployees.c:14:25: error: unknown type name 'empleado'
+int inicializarEmpleado(empleado* list, int tam)
+                        ^
+../src/ArrayEmployees.c:22:22: error: unknown type name 'empleado'
+int agregarEmpleaado(empleado* list, int tam, int id, char nombre[],char
+                     ^
+../src/ArrayEmployees.c:33:22: error: unknown type name 'empleado'
+int buscarEmpleadoId(empleado* list, int len,int id)
+                     ^
+../src/ArrayEmployees.c:37:20: error: unknown type name 'empleado'
+int borrarEmpleado(empleado* list, int len, int id)
+                   ^
+../src/ArrayEmployees.c:41:21: error: unknown type name 'empleado'
+int ordenarEmpleado(empleado* list, int len, int order)
+                    ^
+../src/ArrayEmployees.c:45:22: error: unknown type name 'empleado'
+int imprimirEmpleado(empleado* list, int length)
+                     ^
+6 errors generated.
+19:37:50 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/ArrayEmployees.o ../src/ArrayEmployees.c 
+../src/ArrayEmployees.c:14:25: error: unknown type name 'empleado'
+int inicializarEmpleado(empleado list, int tam)
+                        ^
+../src/ArrayEmployees.c:22:22: error: unknown type name 'empleado'
+int agregarEmpleaado(empleado list, int tam, int id, char nombre[],char
+                     ^
+../src/ArrayEmployees.c:33:22: error: unknown type name 'empleado'
+int buscarEmpleadoId(empleado list, int len,int id)
+                     ^
+../src/ArrayEmployees.c:37:20: error: unknown type name 'empleado'
+int borrarEmpleado(empleado list, int len, int id)
+                   ^
+../src/ArrayEmployees.c:41:21: error: unknown type name 'empleado'
+int ordenarEmpleado(empleado list, int len, int order)
+                    ^
+../src/ArrayEmployees.c:45:22: error: unknown type name 'empleado'
+int imprimirEmpleado(empleado list, int length)
+                     ^
+6 errors generated.
+19:39:05 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/ArrayEmployees.o ../src/ArrayEmployees.c 
+../src/ArrayEmployees.c:14:32: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int inicializarEmpleado(struct empleado list, int tam)
+                               ^
+../src/ArrayEmployees.c:14:41: error: variable has incomplete type 'struct empleado'
+int inicializarEmpleado(struct empleado list, int tam)
+                                        ^
+../src/ArrayEmployees.c:14:32: note: forward declaration of 'struct empleado'
+int inicializarEmpleado(struct empleado list, int tam)
+                               ^
+../src/ArrayEmployees.c:22:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int agregarEmpleaado(struct empleado list, int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:22:38: error: variable has incomplete type 'struct empleado'
+int agregarEmpleaado(struct empleado list, int tam, int id, char nombre[],char
+                                     ^
+../src/ArrayEmployees.c:22:29: note: forward declaration of 'struct empleado'
+int agregarEmpleaado(struct empleado list, int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:33:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int buscarEmpleadoId(struct empleado list, int len,int id)
+                            ^
+../src/ArrayEmployees.c:33:38: error: variable has incomplete type 'struct empleado'
+int buscarEmpleadoId(struct empleado list, int len,int id)
+                                     ^
+../src/ArrayEmployees.c:33:29: note: forward declaration of 'struct empleado'
+int buscarEmpleadoId(struct empleado list, int len,int id)
+                            ^
+../src/ArrayEmployees.c:37:27: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int borrarEmpleado(struct empleado list, int len, int id)
+                          ^
+../src/ArrayEmployees.c:37:36: error: variable has incomplete type 'struct empleado'
+int borrarEmpleado(struct empleado list, int len, int id)
+                                   ^
+../src/ArrayEmployees.c:37:27: note: forward declaration of 'struct empleado'
+int borrarEmpleado(struct empleado list, int len, int id)
+                          ^
+../src/ArrayEmployees.c:41:28: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int ordenarEmpleado(struct empleado list, int len, int order)
+                           ^
+../src/ArrayEmployees.c:41:37: error: variable has incomplete type 'struct empleado'
+int ordenarEmpleado(struct empleado list, int len, int order)
+                                    ^
+../src/ArrayEmployees.c:41:28: note: forward declaration of 'struct empleado'
+int ordenarEmpleado(struct empleado list, int len, int order)
+                           ^
+../src/ArrayEmployees.c:45:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int imprimirEmpleado(struct empleado list, int length)
+                            ^
+../src/ArrayEmployees.c:45:38: error: variable has incomplete type 'struct empleado'
+int imprimirEmpleado(struct empleado list, int length)
+                                     ^
+../src/ArrayEmployees.c:45:29: note: forward declaration of 'struct empleado'
+int imprimirEmpleado(struct empleado list, int length)
+                            ^
+6 warnings and 6 errors generated.
+19:39:49 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/TP_[2].o ../src/TP_[2].c 
+In file included from ../src/TP_[2].c:14:
+../src/ArrayEmployees.h:13:25: error: unknown type name 'empleado'
+int inicializarEmpleado(empleado* list, int len);
+                        ^
+../src/ArrayEmployees.h:15:22: error: unknown type name 'empleado'
+int agregarEmpleaado(empleado* list, int len, int id, char nombre[],char
+                     ^
+../src/ArrayEmployees.h:18:22: error: unknown type name 'empleado'
+int buscarEmpleadoId(empleado* list, int len,int id);
+                     ^
+../src/ArrayEmployees.h:20:20: error: unknown type name 'empleado'
+int borrarEmpleado(empleado* list, int len, int id);
+                   ^
+../src/ArrayEmployees.h:22:21: error: unknown type name 'empleado'
+int ordenarEmpleado(empleado* list, int len, int order);
+                    ^
+../src/ArrayEmployees.h:24:22: error: unknown type name 'empleado'
+int imprimirEmpleado(empleado* list, int length);
+                     ^
+6 errors generated.
+19:40:16 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/TP_[2].o ../src/TP_[2].c 
+../src/TP_[2].c:25:3: error: typedef redefinition with different types ('struct empleado' vs 'struct empleado')
+} empleado;
+  ^
+../src/ArrayEmployees.h:19:3: note: previous definition is here
+} empleado;
+  ^
+../src/TP_[2].c:38:21: warning: incompatible pointer types passing 'empleado **' to parameter of type 'empleado *'; remove & [-Wincompatible-pointer-types]
+                        agregarEmpleaado(&empleUno,5,1,"nombre","apellido",12,3);
+                                         ^~~~~~~~~
+../src/ArrayEmployees.h:23:32: note: passing argument to parameter 'list' here
+int agregarEmpleaado(empleado* list, int len, int id, char nombre[],char
+                               ^
+1 warning and 1 error generated.
+19:40:39 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/ArrayEmployees.o ../src/ArrayEmployees.c 
+../src/ArrayEmployees.c:14:25: error: unknown type name 'empleado'
+int inicializarEmpleado(empleado* list, int tam)
+                        ^
+../src/ArrayEmployees.c:22:22: error: unknown type name 'empleado'
+int agregarEmpleaado(empleado* list, int tam, int id, char nombre[],char
+                     ^
+../src/ArrayEmployees.c:33:22: error: unknown type name 'empleado'
+int buscarEmpleadoId(empleado* list, int len,int id)
+                     ^
+../src/ArrayEmployees.c:37:20: error: unknown type name 'empleado'
+int borrarEmpleado(empleado* list, int len, int id)
+                   ^
+../src/ArrayEmployees.c:41:21: error: unknown type name 'empleado'
+int ordenarEmpleado(empleado* list, int len, int order)
+                    ^
+../src/ArrayEmployees.c:45:22: error: unknown type name 'empleado'
+int imprimirEmpleado(empleado* list, int length)
+                     ^
+6 errors generated.
+19:40:46 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/TP_[2].o ../src/TP_[2].c 
+../src/TP_[2].c:25:3: error: typedef redefinition with different types ('struct empleado' vs 'struct empleado')
+} empleado;
+  ^
+../src/ArrayEmployees.h:19:3: note: previous definition is here
+} empleado;
+  ^
+../src/TP_[2].c:38:21: warning: incompatible pointer types passing 'empleado **' to parameter of type 'empleado *'; remove & [-Wincompatible-pointer-types]
+                        agregarEmpleaado(&empleUno,5,1,"nombre","apellido",12,3);
+                                         ^~~~~~~~~
+../src/ArrayEmployees.h:23:32: note: passing argument to parameter 'list' here
+int agregarEmpleaado(empleado* list, int len, int id, char nombre[],char
+                               ^
+1 warning and 1 error generated.
+19:45:37 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/ArrayEmployees.o ../src/ArrayEmployees.c 
+../src/ArrayEmployees.c:14:32: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int inicializarEmpleado(struct empleado* , int tam)
+                               ^
+../src/ArrayEmployees.c:14:42: warning: omitting the parameter name in a function definition is a C2x extension [-Wc2x-extensions]
+int inicializarEmpleado(struct empleado* , int tam)
+                                         ^
+../src/ArrayEmployees.c:17:3: error: use of undeclared identifier 'list'
+                list[i].isEmpty=1;
+                ^
+../src/ArrayEmployees.c:22:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int agregarEmpleaado(struct empleado* , int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:22:39: warning: omitting the parameter name in a function definition is a C2x extension [-Wc2x-extensions]
+int agregarEmpleaado(struct empleado* , int tam, int id, char nombre[],char
+                                      ^
+../src/ArrayEmployees.c:26:6: error: use of undeclared identifier 'empleado'
+                if(empleado[i].isEmpty == 1){
+                   ^
+../src/ArrayEmployees.c:27:4: error: must use 'struct' tag to refer to type 'empleado'
+                        empleado[i].nombre=GetString("Introduzca nombre del empleado: ","",51);
+                        ^
+                        struct 
+../src/ArrayEmployees.c:27:15: error: expected identifier or '('
+                        empleado[i].nombre=GetString("Introduzca nombre del empleado: ","",51);
+                                   ^
+../src/ArrayEmployees.c:33:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int buscarEmpleadoId(struct empleado* , int len,int id)
+                            ^
+../src/ArrayEmployees.c:33:39: warning: omitting the parameter name in a function definition is a C2x extension [-Wc2x-extensions]
+int buscarEmpleadoId(struct empleado* , int len,int id)
+                                      ^
+../src/ArrayEmployees.c:37:27: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int borrarEmpleado(struct empleado* , int len, int id)
+                          ^
+../src/ArrayEmployees.c:37:37: warning: omitting the parameter name in a function definition is a C2x extension [-Wc2x-extensions]
+int borrarEmpleado(struct empleado* , int len, int id)
+                                    ^
+../src/ArrayEmployees.c:41:28: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int ordenarEmpleado(struct empleado* , int len, int order)
+                           ^
+../src/ArrayEmployees.c:41:38: warning: omitting the parameter name in a function definition is a C2x extension [-Wc2x-extensions]
+int ordenarEmpleado(struct empleado* , int len, int order)
+                                     ^
+../src/ArrayEmployees.c:45:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int imprimirEmpleado(struct empleado* , int length)
+                            ^
+../src/ArrayEmployees.c:45:39: warning: omitting the parameter name in a function definition is a C2x extension [-Wc2x-extensions]
+int imprimirEmpleado(struct empleado* , int length)
+                                      ^
+12 warnings and 4 errors generated.
+19:46:11 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/ArrayEmployees.o ../src/ArrayEmployees.c 
+../src/ArrayEmployees.c:14:32: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int inicializarEmpleado(struct empleado* p, int tam)
+                               ^
+../src/ArrayEmployees.c:17:3: error: use of undeclared identifier 'list'
+                list[i].isEmpty=1;
+                ^
+../src/ArrayEmployees.c:22:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int agregarEmpleaado(struct empleado* p, int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:26:7: error: subscript of pointer to incomplete type 'struct empleado'
+                if(p[i].isEmpty == 1){
+                   ~^
+../src/ArrayEmployees.c:22:29: note: forward declaration of 'struct empleado'
+int agregarEmpleaado(struct empleado* p, int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:27:5: error: subscript of pointer to incomplete type 'struct empleado'
+                        p[i].nombre=GetString("Introduzca nombre del empleado: ","",51);
+                        ~^
+../src/ArrayEmployees.c:22:29: note: forward declaration of 'struct empleado'
+int agregarEmpleaado(struct empleado* p, int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:33:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int buscarEmpleadoId(struct empleado* p, int len,int id)
+                            ^
+../src/ArrayEmployees.c:37:27: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int borrarEmpleado(struct empleado* p, int len, int id)
+                          ^
+../src/ArrayEmployees.c:41:28: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int ordenarEmpleado(struct empleado* p, int len, int order)
+                           ^
+../src/ArrayEmployees.c:45:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int imprimirEmpleado(struct empleado* p , int length)
+                            ^
+6 warnings and 3 errors generated.
+19:46:38 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/ArrayEmployees.o ../src/ArrayEmployees.c 
+../src/ArrayEmployees.c:14:32: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int inicializarEmpleado(struct empleado* p, int tam)
+                               ^
+../src/ArrayEmployees.c:17:3: error: use of undeclared identifier 'list'
+                list[i].isEmpty=1;
+                ^
+../src/ArrayEmployees.c:22:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int agregarEmpleaado(struct empleado* p, int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:26:7: error: subscript of pointer to incomplete type 'struct empleado'
+                if(p[i].isEmpty == 1){
+                   ~^
+../src/ArrayEmployees.c:22:29: note: forward declaration of 'struct empleado'
+int agregarEmpleaado(struct empleado* p, int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:27:5: error: subscript of pointer to incomplete type 'struct empleado'
+                        p[i].nombre=GetString("Introduzca nombre del empleado: ","",51);
+                        ~^
+../src/ArrayEmployees.c:22:29: note: forward declaration of 'struct empleado'
+int agregarEmpleaado(struct empleado* p, int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:33:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int buscarEmpleadoId(struct empleado* p, int len,int id)
+                            ^
+../src/ArrayEmployees.c:37:27: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int borrarEmpleado(struct empleado* p, int len, int id)
+                          ^
+../src/ArrayEmployees.c:41:28: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int ordenarEmpleado(struct empleado* p, int len, int order)
+                           ^
+../src/ArrayEmployees.c:45:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int imprimirEmpleado(struct empleado* p , int length)
+                            ^
+6 warnings and 3 errors generated.
+19:47:30 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/ArrayEmployees.o ../src/ArrayEmployees.c 
+../src/ArrayEmployees.c:14:32: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int inicializarEmpleado(struct empleado* p, int tam)
+                               ^
+../src/ArrayEmployees.c:17:3: error: use of undeclared identifier 'list'
+                list[i].isEmpty=1;
+                ^
+../src/ArrayEmployees.c:22:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int agregarEmpleaado(struct empleado* p, int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:26:8: error: subscript of pointer to incomplete type 'struct empleado'
+                if(&p[i].isEmpty == 1){
+                    ~^
+../src/ArrayEmployees.c:22:29: note: forward declaration of 'struct empleado'
+int agregarEmpleaado(struct empleado* p, int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:27:6: error: subscript of pointer to incomplete type 'struct empleado'
+                        &p[i].nombre=GetString("Introduzca nombre del empleado: ","",51);
+                         ~^
+../src/ArrayEmployees.c:22:29: note: forward declaration of 'struct empleado'
+int agregarEmpleaado(struct empleado* p, int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:33:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int buscarEmpleadoId(struct empleado* p, int len,int id)
+                            ^
+../src/ArrayEmployees.c:37:27: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int borrarEmpleado(struct empleado* p, int len, int id)
+                          ^
+../src/ArrayEmployees.c:41:28: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int ordenarEmpleado(struct empleado* p, int len, int order)
+                           ^
+../src/ArrayEmployees.c:45:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int imprimirEmpleado(struct empleado* p , int length)
+                            ^
+6 warnings and 3 errors generated.
+19:48:35 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/TP_[2].o ../src/TP_[2].c 
+In file included from ../src/TP_[2].c:14:
+../src/ArrayEmployees.h:21:32: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int inicializarEmpleado(struct empleado* p, int len);
+                               ^
+../src/ArrayEmployees.h:23:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int agregarEmpleaado(struct empleado* p, int len, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.h:26:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int buscarEmpleadoId(struct empleado* p, int len,int id);
+                            ^
+../src/ArrayEmployees.h:28:27: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int borrarEmpleado(struct empleado* p, int len, int id);
+                          ^
+../src/ArrayEmployees.h:30:28: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int ordenarEmpleado(struct empleado* p, int len, int order);
+                           ^
+../src/ArrayEmployees.h:32:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int imprimirEmpleado(struct empleado* p, int length);
+                            ^
+../src/TP_[2].c:25:3: error: typedef redefinition with different types ('struct empleado' vs 'struct empleado')
+} empleado;
+  ^
+../src/ArrayEmployees.h:19:3: note: previous definition is here
+} empleado;
+  ^
+../src/TP_[2].c:38:21: warning: incompatible pointer types passing 'empleado **' to parameter of type 'struct empleado *' [-Wincompatible-pointer-types]
+                        agregarEmpleaado(&empleUno,5,1,"nombre","apellido",12,3);
+                                         ^~~~~~~~~
+../src/ArrayEmployees.h:23:39: note: passing argument to parameter 'p' here
+int agregarEmpleaado(struct empleado* p, int len, int id, char nombre[],char
+                                      ^
+7 warnings and 1 error generated.
+19:48:57 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/ArrayEmployees.o ../src/ArrayEmployees.c 
+../src/ArrayEmployees.c:14:25: error: unknown type name 'empleado'
+int inicializarEmpleado(empleado* list, int tam)
+                        ^
+../src/ArrayEmployees.c:22:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int agregarEmpleaado(struct empleado* list, int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:26:10: error: subscript of pointer to incomplete type 'struct empleado'
+                if(list[i].isEmpty == 1){
+                   ~~~~^
+../src/ArrayEmployees.c:22:29: note: forward declaration of 'struct empleado'
+int agregarEmpleaado(struct empleado* list, int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:27:8: error: subscript of pointer to incomplete type 'struct empleado'
+                        list[i].nombre=GetString("Introduzca nombre del empleado: ","",51);
+                        ~~~~^
+../src/ArrayEmployees.c:22:29: note: forward declaration of 'struct empleado'
+int agregarEmpleaado(struct empleado* list, int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:33:22: error: unknown type name 'empleado'
+int buscarEmpleadoId(empleado* list, int len,int id)
+                     ^
+../src/ArrayEmployees.c:37:20: error: unknown type name 'empleado'
+int borrarEmpleado(empleado* list, int len, int id)
+                   ^
+../src/ArrayEmployees.c:41:21: error: unknown type name 'empleado'
+int ordenarEmpleado(empleado* list, int len, int order)
+                    ^
+../src/ArrayEmployees.c:45:22: error: unknown type name 'empleado'
+int imprimirEmpleado(empleado* list, int length)
+                     ^
+1 warning and 7 errors generated.
+19:49:33 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/ArrayEmployees.o ../src/ArrayEmployees.c 
+../src/ArrayEmployees.c:14:25: error: unknown type name 'empleado'
+int inicializarEmpleado(empleado* list, int tam)
+                        ^
+../src/ArrayEmployees.c:22:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int agregarEmpleaado(struct empleado* list, int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:26:10: error: subscript of pointer to incomplete type 'struct empleado'
+                if(list[i].isEmpty == 1){
+                   ~~~~^
+../src/ArrayEmployees.c:22:29: note: forward declaration of 'struct empleado'
+int agregarEmpleaado(struct empleado* list, int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:27:8: error: subscript of pointer to incomplete type 'struct empleado'
+                        list[i].nombre=GetString("Introduzca nombre del empleado: ","",51);
+                        ~~~~^
+../src/ArrayEmployees.c:22:29: note: forward declaration of 'struct empleado'
+int agregarEmpleaado(struct empleado* list, int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:33:22: error: unknown type name 'empleado'
+int buscarEmpleadoId(empleado* list, int len,int id)
+                     ^
+../src/ArrayEmployees.c:37:20: error: unknown type name 'empleado'
+int borrarEmpleado(empleado* list, int len, int id)
+                   ^
+../src/ArrayEmployees.c:41:21: error: unknown type name 'empleado'
+int ordenarEmpleado(empleado* list, int len, int order)
+                    ^
+../src/ArrayEmployees.c:45:22: error: unknown type name 'empleado'
+int imprimirEmpleado(empleado* list, int length)
+                     ^
+1 warning and 7 errors generated.
+19:50:43 **** Incremental Build of configuration Debug for project TP_[2] ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o src/ArrayEmployees.o ../src/ArrayEmployees.c 
+../src/ArrayEmployees.c:14:32: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int inicializarEmpleado(struct empleado* list, int tam)
+                               ^
+../src/ArrayEmployees.c:17:7: error: subscript of pointer to incomplete type 'struct empleado'
+                list[i].isEmpty=1;
+                ~~~~^
+../src/ArrayEmployees.c:14:32: note: forward declaration of 'struct empleado'
+int inicializarEmpleado(struct empleado* list, int tam)
+                               ^
+../src/ArrayEmployees.c:22:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int agregarEmpleaado(struct empleado* list, int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:26:10: error: subscript of pointer to incomplete type 'struct empleado'
+                if(list[i].isEmpty == 1){
+                   ~~~~^
+../src/ArrayEmployees.c:22:29: note: forward declaration of 'struct empleado'
+int agregarEmpleaado(struct empleado* list, int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:27:8: error: subscript of pointer to incomplete type 'struct empleado'
+                        list[i].nombre=GetString("Introduzca nombre del empleado: ","",51);
+                        ~~~~^
+../src/ArrayEmployees.c:22:29: note: forward declaration of 'struct empleado'
+int agregarEmpleaado(struct empleado* list, int tam, int id, char nombre[],char
+                            ^
+../src/ArrayEmployees.c:33:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int buscarEmpleadoId(struct empleado* list, int len,int id)
+                            ^
+../src/ArrayEmployees.c:37:27: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int borrarEmpleado(struct empleado* list, int len, int id)
+                          ^
+../src/ArrayEmployees.c:41:28: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int ordenarEmpleado(struct empleado* list, int len, int order)
+                           ^
+../src/ArrayEmployees.c:45:29: warning: declaration of 'struct empleado' will not be visible outside of this function [-Wvisibility]
+int imprimirEmpleado(struct empleado* list, int length)
+                            ^
+6 warnings and 3 errors generated.

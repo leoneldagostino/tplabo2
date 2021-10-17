@@ -1,0 +1,28 @@
+/*
+ * ArrayEmployees.h
+ *
+ *  Created on: 14 oct. 2021
+ *      Author: leeon
+ */
+
+#ifndef ARRAYEMPLOYEES_H_
+#define ARRAYEMPLOYEES_H_
+
+
+
+int inicializarEmpleado(empleado* list, int len);
+
+int agregarEmpleaado(empleado* list, int len, int id, char nombre[],char
+apellido[],float salirio,int sector);
+
+int buscarEmpleadoId(empleado* list, int len,int id);
+
+int borrarEmpleado(empleado* list, int len, int id);
+
+int ordenarEmpleado(empleado* list, int len, int order);
+
+int imprimirEmpleado(empleado* list, int length);
+
+
+
+#endif /* ARRAYEMPLOYEES_H_ */
